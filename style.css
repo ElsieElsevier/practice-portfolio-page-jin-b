@@ -1,0 +1,70 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: orange;
+    font-size: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+}
+
+.title {
+    font-size: 20px;
+    text-align: center;
+}
+
+.about-me {
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.skills {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.skills table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 300px;
+    max-width: 100%;
+    text-align: left;
+}
+
+.certifications {
+    text-align: center;
+    font-size: 18px;
+    margin: 40px auto;
+}
+
+.certifications ul {
+    list-style: none;
+    padding: 0;
+}
+
+.certifications li {
+    margin: 10px;
+    font-size: 18px;
+}
+
+.projects {
+    text-align: center;
+}
+
+.resources {
+    text-align: center;
+    margin-bottom: 80px;
+
+}
+
+.resources h2 {
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    font-size: 20px;
+    text-align: center;
+}
