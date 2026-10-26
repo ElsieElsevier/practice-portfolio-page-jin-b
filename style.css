@@ -1,3 +1,32 @@
+body {
+    background-color: #FAFAFA;
+    color: #282828;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+main section {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #303030;
+    color: white;
+    padding: 25px;
+    margin-bottom: 30px;
+    border: 1px solid #D6D6D6;
+    border-radius: 8px;
+}
+
+main section h2 {
+    color: white;
+}
+
+/* ##### HEADINGS ##### */
 h1, h2, h3, h4, h5, h6 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: orange;
@@ -10,20 +39,63 @@ h1 {
     text-align: center;
 }
 
-.title {
-    font-size: 20px;
-    text-align: center;
+h2 {
+    font-size: 28px;
+    color: orange;
+    margin-bottom: 20px;
 }
 
+
+/* ##### TITLE ##### */
+.title {
+    background-color: #303030;
+    color:white;
+    text-align: center;
+    padding: 50px 20px; 
+    font-size: 20px;
+}
+
+.title h1 {
+    color: white;
+}
+
+
+/* ##### ABOUT ME ##### */
 .about-me {
-    max-width: 900px;
-    margin: 0 auto;
     line-height: 1.6;
 }
 
+/* ##### PORTFOLIO + PROJECT LINKS ##### */
+
+.portfolio-links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.portfolio-links a,
+.projects a,
+.certifications a {
+    display: inline-block;
+    text-decoration: none;
+    color: orange;
+    border: 2px solid orange;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.portfolio-links a:hover,
+.projects a:hover,
+.certifications a:hover {
+    background-color: orange;
+    color:white;
+}
+
+/* ##### SKILLS ##### */
 .skills {
     text-align: center;
-    margin: 40px auto;
 }
 
 .skills table {
@@ -34,10 +106,10 @@ h1 {
     text-align: left;
 }
 
+/* ##### CERTIFICATIONS ##### */
 .certifications {
     text-align: center;
     font-size: 18px;
-    margin: 40px auto;
 }
 
 .certifications ul {
@@ -46,25 +118,74 @@ h1 {
 }
 
 .certifications li {
-    margin: 10px;
+    margin: 18px;
     font-size: 18px;
 }
 
+/* ##### PUBLICATIONS ##### */
+
+.publications {
+    text-align: center;
+    line-height: 1.6;
+
+}
+
+.publications h3 {
+    font-size: 22px;
+    color: white;
+}
+
+.publications a {
+    display: inline-block;
+    margin: 10px;
+    color: orange;
+    text-decoration: none;
+}
+
+.publications a:hover {
+    text-decoration: underline;
+}
+
+/* ##### PROJECTS ##### */
 .projects {
     text-align: center;
 }
 
-.resources {
-    text-align: center;
-    margin-bottom: 80px;
-
+.projects a {
+    color: Orange;
 }
 
-.resources h2 {
-    margin-bottom: 10px;
+.projects img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 25px auto 0;
 }
 
+/* ##### CONTACT INFO ##### */
 .contact-info {
     font-size: 20px;
     text-align: center;
 }
+
+.contact-info form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-info label {
+    display: block;
+    margin-top: 15px;
+}
+
+.contact-info input, .contact-info textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+
+
+

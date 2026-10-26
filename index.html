@@ -9,10 +9,25 @@
 <body>
 
 <header  class="title">
-    <h1>My Portfolio</h1>
+    <h1>Jin (Ken) Bai</h1>
     <p>
-        <strong>Cloud Engineer &#124; Cybersecurity Expert &#124; Aspiring Software Developer</strong>
+        <strong>Cloud Engineer &#124; Cybersecurity Expert &#124; Data Engineer &#124; Software Developer</strong>
     </p>
+
+    <nav class="portfolio-links">
+        <a href="https://github.com/ElsieElsevier"
+            target="_blank"
+            rel="noopener">
+            GitHub
+        </a>
+
+        <a href="https://www.linkedin.com/in/jin-bai/"
+            target="_blank"
+            rel="noopener">
+           LinkedIn 
+        </a>
+
+    </nav>
 </header>
 
 <main>
@@ -21,9 +36,30 @@
         <p>
             Cloud Engineer with hands-on experience managing and automating cloud infrastructure, supporting production systems across Azure environments, and enforcing security best practices. Has AWS experience through research engineering and is currently expanding software development expertise through LaunchCode’s full-stack development program.
         </p>
+
+        <nav class="portfolio-links">
+            <a href="./resumes/CloudEngineerResume.pdf"
+                target="_blank"
+                rel="noopener">
+            Cloud Engineer Resume
+            </a>
+            
+            <a href="./resumes/SecOpsEngineerResume.pdf"
+                target="_blank"
+                rel="noopener">
+            Security Operations Resume
+            </a>
+
+            <a href="./resumes/DataEngineerResume.pdf"
+                target="_blank"
+                rel="noopener">
+            Data Engineer Resume
+            </a>
+        </nav>
+        
     </section>
     <section class="skills">
-        <h3>Technical Skills</h3>
+        <h2>Technical Skills</h2>
         <table>
             <tr>
                 <th>Skills</th>
@@ -57,35 +93,104 @@
     </section>
 
     <section class="certifications">
-        <h4>Certifications</h4>
+        <h2>Certifications</h2>
+
         <ul>
-            <li>CompTIA Security+</li>
-            <li>AWS CCP</li>
+            <li>
+                <a href="https://cp.certmetrics.com/CompTIA/en/public/verify/credential/1fa02cf0c93142c985e83d8d2a87d8dc"
+                    target="_blank"
+                    rel="noopener">
+                    CompTIA Security+
+                </a>
+            </li>
+
+            <li>
+                <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/371dc38bb47847709e3194e0db32c8a2"
+                    target="_blank"
+                    rel="noopener">
+                    AWS Certified Cloud Practitioner
+                </a>
+            </li>
         </ul>
     </section>
 
-    <section class="projects">
-        <h5>Projects</h5>
-        <p>eHack 2025: Second Place<br><a href="https://github.com/ElsieElsevier/arrange.ly-spectral-clustering">Arrange.ly: A machine Learning Powered Wedding Seat Planner using Spectral Clustering</a></p>
-        <img src="./images/IMG_8001.jpg"
-             alt="Arrange.ly eHack Second Place Team"
-             width="700">
+    <section class="publications">
+        <h2>Research & Publication</h2>
+
+        <article>
+            <h3>Neural Thurstone Model: Leveraging Latent Spaces for Collective Intelligence in Ranking Predictions</h3>
+            <p>
+                <strong>Authors:</strong> Necdet Gurkan, Jin Bai
+            </p>
+
+            <p>
+                <strong>Published:</strong> 2025 | Cognitive Science Society
+            </p>
+
+            <p>
+            Co-authored research exploring how neural networks and
+            pretrained vector representations can improve collective
+            intelligence and ranking predictions, particularly when
+            available ranking data is limited.
+            </p>
+
+            <a href="https://escholarship.org/uc/item/0wh63804"
+                target="_blank"
+                rel="noopener">
+                View Publication
+            </a>
+
+            <a href="https://escholarship.org/content/qt0wh63804/qt0wh63804.pdf"
+                target="_blank"
+                rel="noopener">
+                Read PDF
+            </a>
+
+        </article>
     </section>
 
-    <section class="resources">
-        <h6>Resources</h6>
-        <a href="https://github.com/ElsieElsevier">My GitHub</a>
+    <section class="projects">
+        <h2>Projects</h2>
+
+        <h3>Arrange.ly</h3>
+
+        <p>
+            Machine Learning Powered Wedding Seating Optimizer using Spectral Clustering.
+        </p>
+
+        <p>eHack 2025: Second Place</p>
+            
+        <a href="https://github.com/ElsieElsevier/arrange.ly-spectral-clustering"
+                target="_blank"
+                rel="noopener">
+            View Project on GitHub
+        </a>
+
+        <img src="./images/IMG_8001.jpg"
+             alt="Arrange.ly eHack Second Place Team">
+
     </section>
 
     <section class="contact-info">
-        <h7>Contact Information</h7>
+        <h2>Contact Information</h2>
         <form>
-            <label for="name">Name:</label>
+            <label for="name">
+                Name:
+            </label>
             <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
+
+            <label for="email">
+                Email:
+            </label>
             <input type="email" id="email" name="email" required>
-            <label for="Additional Notes">Additional Notes:</label>
-            <input type="message" id="message" name="message">
+
+            <label for="message">
+                Additional Notes:
+            </label>
+            <textarea id="message" name="message" rows="5">
+                
+            </textarea>
+
             <button type="submit">Submit</button>
         </form>
     </section>
