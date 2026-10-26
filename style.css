@@ -1,7 +1,12 @@
+/* ##### IMPORTS ##### */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
+
+/* ##### MAIN AND BODY ##### */
 body {
     background-color: #FAFAFA;
     color: #282828;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
     margin: 0;
 }
 
@@ -26,9 +31,12 @@ main section h2 {
     color: white;
 }
 
+input, textarea, button {
+    font: inherit;
+}
+
 /* ##### HEADINGS ##### */
 h1, h2, h3, h4, h5, h6 {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: orange;
     font-size: 30px;
     text-align: center;
